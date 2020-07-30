@@ -1,4 +1,4 @@
-package observables;
+package observers;
 
 import com.codingsaint.learning.rxjava.utils.LoggerUtil;
 import io.reactivex.Observer;
@@ -8,7 +8,7 @@ public class DemoObserver implements Observer {
 
     private Long id;
 
-    DemoObserver(Long id) {
+    public DemoObserver(Long id) {
         this.id = id;
     }
 

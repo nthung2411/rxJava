@@ -1,5 +1,6 @@
 package observables;
 
+import observers.DemoObserver;
 import com.codingsaint.learning.rxjava.utils.LoggerUtil;
 import io.reactivex.Observable;
 

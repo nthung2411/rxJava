@@ -8,3 +8,9 @@ target/classes/com/codingsaint/learning/rxjava/utils/LoggerUtil.class
 target/classes/observables/DemoObserver.class
 target/classes/observables/ObservableUsingJust.class
 target/test-classes/.netbeans_automatic_build
+target/rxJava-1.0-SNAPSHOT.jar
+target/classes/com/codingsaint/learning/rxjava/models/Shape.class
+target/classes/com/codingsaint/learning/rxjava/utils/RxUtils.class
+target/classes/observables/ObservableUsingDefer.class
+target/classes/observers/DemoObserver.class
+target/maven-archiver/pom.properties
