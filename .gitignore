@@ -14,3 +14,10 @@ target/classes/com/codingsaint/learning/rxjava/utils/RxUtils.class
 target/classes/observables/ObservableUsingDefer.class
 target/classes/observers/DemoObserver.class
 target/maven-archiver/pom.properties
+target/classes/observables/ObservableUsingCreate$1.class
+target/classes/observables/ObservableUsingCreate.class
+target/classes/observables/ObservableUsingFromCallable$1.class
+target/classes/observables/ObservableUsingFromCallable.class
+target/classes/observables/ObservableUsingInterval.class
+target/classes/observables/ObservableUsingRange.class
+target/classes/observables/ObservableUsingTimer.class

@@ -2,6 +2,7 @@ package observables;
 
 import com.codingsaint.learning.rxjava.utils.RxUtils;
 import io.reactivex.Observable;
+import io.reactivex.disposables.Disposable;
 import observers.DemoObserver;
 
 public class ObservableUsingDefer {
@@ -11,8 +12,12 @@ public class ObservableUsingDefer {
             return Observable.fromIterable(RxUtils.postiveNumbers(5));
         });
 
-        observableUsingDefer.subscribe(new DemoObserver(1L));
+        DemoObserver observer1 = new DemoObserver(1L);
         
-        observableUsingDefer.subscribe(new DemoObserver(2L));
+        observableUsingDefer.subscribe(observer1);
+        
+        observableUsingDefer.subscribe(new DemoObserver(2L));        
+        
+        observableUsingDefer.subscribe(observer1);
     }
 }
