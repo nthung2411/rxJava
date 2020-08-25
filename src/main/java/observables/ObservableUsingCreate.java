@@ -24,7 +24,7 @@ public class ObservableUsingCreate {
                 }catch(Exception ex){
                     oe.onError(ex);
                 }
-                //oe.onComplete();
+                oe.onComplete();
             }
         });
 
